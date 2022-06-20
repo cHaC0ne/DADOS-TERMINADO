@@ -12,7 +12,7 @@
         android:layout_width="169dp"
         android:layout_height="172dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="104dp"
         android:layout_marginEnd="212dp"
         android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,12 +24,13 @@
         android:id="@+id/btnLanzar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="196dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="192dp"
         android:backgroundTint="@color/white"
         android:onClick="clickOnDado"
         android:text="LANZAR DADO"
         android:textColor="@color/red"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -37,8 +38,8 @@
         android:id="@+id/ivDado2"
         android:layout_width="175dp"
         android:layout_height="173dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dice5" />
@@ -55,4 +56,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:text="RESULTADO" />
+
+    <TextView
+        android:id="@+id/tvTItulos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:text="LOS DADOS DE LA SUERTE"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
